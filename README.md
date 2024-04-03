@@ -53,14 +53,13 @@ urlpatterns = [
 ]
 ```
 ## Apps.py:
-  ```
+```
 from django.apps import AppConfig
 
 
 class OrmappConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'ormapp'
-
 ```
 ### OUTPUT:
 ![Screenshot 2024-04-03 144857](https://github.com/rakshithaprakashkumar11/ORM/assets/150994181/ad8990df-2b15-444b-9e0d-59f06915498b)
